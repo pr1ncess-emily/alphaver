@@ -5,7 +5,9 @@
   "exports": "./build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./start.js"
+    "build": "node ./index.js build",
+    "serve": "node ./index.js serve",
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
